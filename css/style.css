@@ -316,18 +316,18 @@ ul, li {
 	border: 2px solid #0098aa;
 	transition: all 0.3s ease-in-out;
 }
-/* CryptoAdresses section style goes here */
-#CryptoAdresses {
+/* services section style goes here */
+#Services {
 	padding: 80px 0 50px;
 	background-color: #fafafa;
 }
-#CryptoAdresses .block-heading {
+#Services .block-heading {
 	margin-bottom: 100px;
 }
-#CryptoAdresses .block-heading p:last-of-type {
+#Services .block-heading p:last-of-type {
 	margin: 0;
 }
-#CryptoAdresses .CryptoAdresses-wrapper {
+#Services .services-wrapper {
 	display: -webkit-flex;
 	display: flex;
 	-webkit-justify-content: center;
@@ -338,7 +338,7 @@ ul, li {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-#CryptoAdresses .each-payment {
+#Services .each-service {
 	position: relative;
 	text-align: center;
 	max-width: calc(33.33% - 30px);
@@ -347,7 +347,7 @@ ul, li {
   margin: 0 15px 50px;
   padding: 55px 20px 25px;
 }
-#CryptoAdresses .each-payment .service-icon {
+#Services .each-service .service-icon {
 	position: absolute;
 	top: -30px;
 	left: 50%;
@@ -357,24 +357,24 @@ ul, li {
 	border-radius: 50%;
 	transition: all 0.2s ease-in-out;
 }
-#CryptoAdresses .each-payment .service-icon i {
+#Services .each-service .service-icon i {
 	font-size: 24px;
 	color: #fff;
 	transition: all 0.2s ease-in-out;
 }
-#CryptoAdresses .each-payment:hover .service-icon {
+#Services .each-service:hover .service-icon {
 	background-color: #ffffff;
 	border: 1px solid #0098aa;
 	transition: all 0.2s ease-in-out;
 }
-#CryptoAdresses .each-payment:hover .service-icon i {
+#Services .each-service:hover .service-icon i {
 	color: #0098aa;
 	transition: all 0.2s ease-in-out;
 }
-#CryptoAdresses .each-payment h5 {
+#Services .each-service h5 {
 	margin: 0 0 10px;
 }
-#CryptoAdresses .each-payment p:last-child {
+#Services .each-service p:last-child {
 	margin: 0;
 }
 /* porfolio style goes here */
@@ -464,7 +464,7 @@ ul, li {
 	position: absolute;
 	top: 0;
 	right: 0;
-	background: url("../images/about-us.jpg") no-repeat center / cover;
+	background: url("../images/foodie.jpg") no-repeat center / cover;
 	width: 50%;
 	height: 100%;
 }
@@ -472,7 +472,7 @@ ul, li {
 #Testimonial {
 	width: 100%;
 	display: table;
-	background: url(../images/banner-one.jpg) no-repeat 0 30% / cover;
+	background: url(../images/foodie.jpg) no-repeat 0 30% / cover;
 	background-attachment: fixed;
 }
 #Testimonial .block-heading h2 {
@@ -487,6 +487,8 @@ ul, li {
 #Testimonial .testimonial-slider {
 	text-align: center;
 }
+
+
 .bx-wrapper {
 	box-shadow: none;
 	border: 0;
@@ -499,6 +501,29 @@ ul, li {
 .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
 	background: #fff;
 }
+
+/*/ start count stats /*/
+
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.stats {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.stats .fa {
+  color: #008080;
+  font-size: 60px;
+}
+
+/*/ end count stats /*/
+
 /* Contact us section style goes here */
 #ContactUs {
 	padding: 70px 0;
