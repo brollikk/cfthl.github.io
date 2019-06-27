@@ -102,7 +102,7 @@ ul, li {
 	z-index: 9;
 }
 #Header.header-fixed {
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(15, 35, 49, 0.6);
 	transition: all 0.3s ease-in-out;
 }
 #Header.header-fixed .site-logo-wrap {
