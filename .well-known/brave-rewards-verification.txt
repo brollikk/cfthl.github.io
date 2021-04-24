@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cryptoforthehomeless.org
+Token: 6336aba117f915cf1c8e4e0909af319280ef1b85968cc17c95a453bce7661e05
